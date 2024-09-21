@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" type="module" defer></script>
+    <title>Lista de Tarefas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Minhas tarefas</h1>
+      <div class="container-input">
+        <input
+          type="text"
+          class="input-task"
+          id="input-task"
+          placeholder="Digite a nova tarefa"
+        />
+        <button class="input-button" onclick="addNewTask()">Adicionar</button>
+      </div>
+
+      <div class="container-list">
+        <ul class="task-list">
+          <li class="task-item">
+            <div class="custom-checkbox">
+              <input type="checkbox" id="checkbox-1" class="input-checkbox" />
+              <label for="checkbox-1">
+                <p id="task-title">Tarefa 1</p>
+              </label>
+            </div>
+
+            <div class="button-container">
+              <button class="action-button">
+                <img src="./assets/imgs/edit.svg" alt="Editar tarefa" />
+              </button>
+              <button class="action-button">
+                <img src="./assets/imgs/trash.svg" alt="Excluir tarefa" />
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="container-completed">
+            <ul class="completed-list">
+
+            </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
