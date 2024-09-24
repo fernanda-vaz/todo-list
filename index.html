@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://img.icons8.com/?size=100&id=87093&format=png&color=000000"
+    />
     <script src="./assets/js/script.js" type="module" defer></script>
     <title>Lista de Tarefas</title>
   </head>
@@ -41,9 +46,25 @@
           </li>
         </ul>
         <div class="container-completed">
-            <ul class="completed-list">
-
-            </ul>
+          <ul class="completed-list">
+            <li class="task-item">
+              <div class="custom-checkbox done">
+                <input type="checkbox" id="checkbox-0" class="input-checkbox" />
+                <label for="checkbox-0">
+                  <p id="task-title">Tarefa completa</p>
+                </label>
+              </div>
+  
+              <div class="button-container">
+                <button class="action-button">
+                  <img src="./assets/imgs/edit.svg" alt="Editar tarefa" />
+                </button>
+                <button class="action-button">
+                  <img src="./assets/imgs/trash.svg" alt="Excluir tarefa" />
+                </button>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

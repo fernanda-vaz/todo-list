@@ -113,6 +113,10 @@ ul {
   background-position: center;
 }
 
+.container-completed {
+  margin-top: 20px;
+}
+
 .done {
     color: #B5E6E4;
     text-decoration: line-through;
